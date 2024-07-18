@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+table{
+width: 100%;
+}
+
+fieldset{
+margin-bottom: 10px;
+}
+ td{
+text-align: right;
+padding: 5px;
+border: 1px;
+border-color: rgb(82, 82, 51);
+border-style: solid;
+
+ }
+
+ input, select{
+
+width: 100%;
+height: 17px;
+border-radius: 4px;
+background: #eeeeee;
+border: 1px solid;
+box-shadow: 1px 1px 2px #333333;
+ }
+ input:hover{
+    background: #ffffff;
+ }
+input:focus{
+background: #ffffff;
+
+}
+h1{
+text-align: center;
+}
+div{
+margin-left: 5%;
+margin-right: 5%;
+}
+
+h1{
+    text-align: center;
+padding: 5px;
+border: 1px;
+border-color: rgb(82, 82, 51);
+border-style: solid;
+box-shadow: 1px 1px 2px #333333;
+
+}
+</style>
+<h1>Cadastro unico</h1>
+
+
+</head>
+<body bgcolor="#ADADAA " border="1" width="624"></body>
+<div>
+   <form>
+        
+<fieldset>
+    <legend>Dados pessoais</legend>
+    <table>
+        <tr>
+<td> Nome:</td>
+<td><input type="text" name="" id=""><br></td>
+        </tr>
+
+<tr>
+        <td>sobrenome</td>
+        <td><input type="text" name="sobrenome"><br></td>
+    </tr>
+
+<tr>
+        <td>idade</td>
+        <td><input type="number" name="idade"><br></td>
+    </tr>
+
+    <tr>
+        <td>Data de Nascimento</td>
+        <td><input type="date" name="Data de Nascimento"><br></td>
+    </tr>
+    
+
+</table>
+</fieldset>
+<fieldset>
+<legend> Dados profissionais</legend>
+Escolaridade:<br>
+<input type="radio" name="Escolaridade" value="Ensino fundamental completo">Ensino fundamental completo<br>
+<input type="radio" name="Escolaridade" value="Ensino fundamental incompleto">Ensino fundamental incompleto<br>
+<input type="radio" name="Escolaridade" value="Ensino medio completo"> Ensino médio completo <br>
+<input type="radio" name="Escolaridade" value="Ensino medio incompleto"> Ensino médio incompleto <br>
+<input type="radio" name="Escolaridade" value="Ensino superior"> Ensino superior <br>
+ 
+
+
+<table>
+
+    <tr>
+        <td>Ultima experiência</td>
+        <td><input type="text" name="Ultima experiência"><br></td>
+    </tr>
+
+    <tr>
+        <td>Pretensão Salarial</td>
+        <td><input type="number" name="Pretensão Salarial" step="0.10" min="0.00"
+            placeholder="0.00" required><br></td>
+    </tr>
+
+
+</table>
+
+
+</fieldset>
+<input type="reset" value="limpar">
+<input type="submit" value="salvar"><br>
+<BR>
+<FIELdset>
+    pesquisar <img src="lupa.png" width="10" alt="">: 
+     <input type="text" name="pesquisar">
+
+
+
+</FIELdset>
+
+
+
+  </form>
+</div>
+
+
+</body>
+</html>
